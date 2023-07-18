@@ -19,7 +19,7 @@ type FemaleProps = {
 // In TypeScript, the type guards are used to determine a variable's type, often inside a conditional or functional block. The type guards usually take the variable and return a Boolean value or the variable type.
 const Child = (props: Props) => {
   return (
-    <div className="flex flex-col items-center p-11">
+    <div>
       <h1>{props.name}</h1>
       <h1>{props.gender}</h1>
       <h1>{props.gender === "male" ? props.salary : props.weight}</h1>
